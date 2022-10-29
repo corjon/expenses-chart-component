@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <main>
+    <div class="top-container">
+      <div>
+        <p class="top-container-text">My balance</p>
+        <p class="top-container-price">$921.48</p>
+      </div>
+      <img src="images/logo.svg" alt="app logo">
+    </div>
+
+    <div class="bottom-container">
+      <h1>Spending - Last 7 days</h1>
+      <div class="graph">
+        <div class="group">
+          <div class="amount hidden">$</div>
+          <div class="bar"></div>
+          <div class="day">mon</div>
+        </div>
+        <div class="group">
+          <div class="amount hidden">$</div>
+          <div class="bar"></div>
+          <div class="day">tue</div>
+        </div>
+        <div class="group">
+          <div class="amount hidden">$</div>
+          <div class="bar"></div>
+          <div class="day">wed</div>
+        </div>
+        <div class="group">
+          <div class="amount hidden">$</div>
+          <div class="bar"></div>
+          <div class="day">thu</div>
+        </div>
+        <div class="group">
+          <div class="amount hidden">$</div>
+          <div class="bar"></div>
+          <div class="day">fri</div>
+        </div>
+        <div class="group">
+          <div class="amount hidden">$</div>
+          <div class="bar"></div>
+          <div class="day">sat</div>
+        </div>
+        <div class="group">
+          <div class="amount hidden">$</div>
+          <div class="bar"></div>
+          <div class="day">sun</div>
+        </div>
+      </div>  
+
+      <div class="line"></div>
+
+      <div class="details">
+        <div class="details-left">
+          <p class="details-text">Total this month</p>
+          <p class="details-price">$478.33</p>
+        </div>
+
+        <div class="details-right">
+          <p class="details-percent">+2.4%</p>
+          <p class="details-text right">from last month</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
